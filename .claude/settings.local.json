@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /s /b c:workspacelearnserver)",
+      "Bash(yarn add:*)",
+      "Bash(yarn dev)",
+      "Bash(timeout:*)"
+    ]
+  }
+}
