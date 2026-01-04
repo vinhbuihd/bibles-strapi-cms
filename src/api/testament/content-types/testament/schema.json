@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testaments",
+  "info": {
+    "singularName": "testament",
+    "pluralName": "testaments",
+    "displayName": "Testament",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "books": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::book.book",
+      "mappedBy": "testament"
+    }
+  }
+}

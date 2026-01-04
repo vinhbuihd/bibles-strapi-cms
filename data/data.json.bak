@@ -1,0 +1,399 @@
+{
+  "global": {
+    "siteName": "Strapi Blog",
+    "defaultSeo": {
+      "metaTitle": "Page",
+      "metaDescription": "A blog made with Strapi",
+      "shareImage": null
+    },
+    "siteDescription": "A Blog made with Strapi",
+    "favicon": null
+  },
+  "about": {
+    "title": "About the strapi blog",
+    "blocks": [
+      {
+        "__component": "shared.quote",
+        "title": "Thelonius Monk",
+        "body": "You've got to dig it to dig it, you dig?"
+      },
+      {
+        "__component": "shared.rich-text",
+        "body": "Sample about content."
+      },
+      {
+        "__component": "shared.media",
+        "file": "coffee-art.jpg"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "name": "news",
+      "slug": "news"
+    },
+    {
+      "name": "tech",
+      "slug": "tech"
+    },
+    {
+      "name": "food",
+      "slug": "food"
+    },
+    {
+      "name": "nature",
+      "slug": "nature"
+    },
+    {
+      "name": "story",
+      "slug": "story"
+    }
+  ],
+  "authors": [
+    {
+      "name": "David Doe",
+      "email": "daviddoe@strapi.io",
+      "avatar": "daviddoe@strapi.io.jpg"
+    },
+    {
+      "name": "Sarah Baker",
+      "email": "sarahbaker@strapi.io",
+      "avatar": "sarahbaker@strapi.io.jpg"
+    }
+  ],
+  "articles": [
+    {
+      "title": "The internet's Own boy",
+      "slug": "the-internet-s-own-boy",
+      "category": {
+        "id": 5
+      },
+      "author": {
+        "id": 1
+      },
+      "description": "Follow the story of Aaron Swartz, the boy who could change the world",
+      "cover": null,
+      "blocks": [
+        {
+          "__component": "shared.rich-text",
+        "body": "Sample article content 1."
+        },
+        {
+          "__component": "shared.quote",
+          "title": "Thelonius Monk",
+          "body": "You've got to dig it to dig it, you dig?"
+        },
+        {
+          "__component": "shared.media",
+          "file": "coffee-art.jpg"
+        },
+        {
+          "__component": "shared.rich-text",
+        "body": "Sample article content 2."
+        },
+        {
+          "__component": "shared.slider",
+          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
+        }
+      ]
+    },
+    {
+      "title": "This shrimp is awesome",
+      "slug": "this-shrimp-is-awesome",
+      "category": {
+        "id": 4
+      },
+      "author": {
+        "id": 1
+      },
+      "description": "Mantis shrimps, or stomatopods, are marine crustaceans of the order Stomatopoda.",
+      "cover": null,
+      "blocks": [
+        {
+          "__component": "shared.rich-text",
+        "body": "Sample article content 3."
+        },
+        {
+          "__component": "shared.quote",
+          "title": "Thelonius Monk",
+          "body": "You've got to dig it to dig it, you dig?"
+        },
+        {
+          "__component": "shared.media",
+          "file": "coffee-art.jpg"
+        },
+        {
+          "__component": "shared.rich-text",
+        "body": "Sample article content 4."
+        },
+        {
+          "__component": "shared.slider",
+          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
+        }
+      ]
+    },
+    {
+      "title": "A bug is becoming a meme on the internet",
+      "slug": "a-bug-is-becoming-a-meme-on-the-internet",
+      "category": {
+        "id": 2
+      },
+      "author": {
+        "id": 2
+      },
+      "description": "How a bug on MySQL is becoming a meme on the internet",
+      "cover": null,
+      "blocks": [
+        {
+          "__component": "shared.rich-text",
+        "body": "Sample article content 5."
+        },
+        {
+          "__component": "shared.quote",
+          "title": "Thelonius Monk",
+          "body": "You've got to dig it to dig it, you dig?"
+        },
+        {
+          "__component": "shared.media",
+          "file": "coffee-art.jpg"
+        },
+        {
+          "__component": "shared.rich-text",
+        "body": "Sample article content 6."
+        },
+        {
+          "__component": "shared.slider",
+          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
+        }
+      ]
+    },
+    {
+      "title": "Beautiful picture",
+      "slug": "beautiful-picture",
+      "category": {
+        "id": 4
+      },
+      "author": {
+        "id": 2
+      },
+      "description": "Description of a beautiful picture",
+      "cover": null,
+      "blocks": [
+        {
+          "__component": "shared.rich-text",
+        "body": "Sample article content 7."
+        },
+        {
+          "__component": "shared.quote",
+          "title": "Thelonius Monk",
+          "body": "You've got to dig it to dig it, you dig?"
+        },
+        {
+          "__component": "shared.media",
+          "file": "coffee-art.jpg"
+        },
+        {
+          "__component": "shared.rich-text",
+        "body": "Sample article content 8."
+        },
+        {
+          "__component": "shared.slider",
+          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
+        }
+      ]
+    },
+    {
+      "title": "What's inside a Black Hole",
+      "slug": "what-s-inside-a-black-hole",
+      "category": {
+        "id": 1
+      },
+      "author": {
+        "id": 2
+      },
+      "description": "Description of a black hole article.",
+      "cover": null,
+      "blocks": [
+        {
+          "__component": "shared.rich-text",
+        "body": "Sample article content 9."
+        },
+        {
+          "__component": "shared.quote",
+          "title": "Thelonius Monk",
+          "body": "You've got to dig it to dig it, you dig?"
+        },
+        {
+          "__component": "shared.media",
+          "file": "coffee-art.jpg"
+        },
+        {
+          "__component": "shared.rich-text",
+        "body": "Sample article content 10."
+        },
+        {
+          "__component": "shared.slider",
+          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
+        }
+      ],
+  "translations": [
+    {
+      "name": "King James Version",
+      "language": "English",
+      "is_default": true
+    },
+    {
+      "name": "Vietnamese Bible",
+      "language": "Vietnamese",
+      "is_default": false
+    }
+  ],
+  "testaments": [
+    {
+      "name": "Old Testament",
+      "slug": "old-testament"
+    },
+    {
+      "name": "New Testament",
+      "slug": "new-testament"
+    }
+  ],
+  "books": [
+    {
+      "name": "Genesis",
+      "slug": "genesis",
+      "order": 1,
+      "testament": {
+        "id": 1
+      }
+    },
+    {
+      "name": "Exodus",
+      "slug": "exodus",
+      "order": 2,
+      "testament": {
+        "id": 1
+      }
+    },
+    {
+      "name": "Matthew",
+      "slug": "matthew",
+      "order": 1,
+      "testament": {
+        "id": 2
+      }
+    },
+    {
+      "name": "Mark",
+      "slug": "mark",
+      "order": 2,
+      "testament": {
+        "id": 2
+      }
+    }
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "book": {
+        "id": 1
+      }
+    },
+    {
+      "number": 2,
+      "book": {
+        "id": 1
+      }
+    },
+    {
+      "number": 1,
+      "book": {
+        "id": 2
+      }
+    },
+    {
+      "number": 1,
+      "book": {
+        "id": 3
+      }
+    },
+    {
+      "number": 1,
+      "book": {
+        "id": 4
+      }
+    }
+  ],
+  "verses": [
+    {
+      "number": 1,
+      "text": "In the beginning God created the heaven and the earth.",
+      "chapter": {
+        "id": 1
+      },
+      "translation": {
+        "id": 1
+      }
+    },
+    {
+      "number": 2,
+      "text": "And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.",
+      "chapter": {
+        "id": 1
+      },
+      "translation": {
+        "id": 1
+      }
+    },
+    {
+      "number": 3,
+      "text": "And God said, Let there be light: and there was light.",
+      "chapter": {
+        "id": 1
+      },
+      "translation": {
+        "id": 1
+      }
+    },
+    {
+      "number": 1,
+      "text": "These are the generations of the heavens and of the earth when they were created, in the day that the LORD God made the earth and the heavens,",
+      "chapter": {
+        "id": 2
+      },
+      "translation": {
+        "id": 1
+      }
+    },
+    {
+      "number": 1,
+      "text": "Now these are the names of the children of Israel, which came into Egypt; every man and his household came with Jacob:",
+      "chapter": {
+        "id": 3
+      },
+      "translation": {
+        "id": 1
+      }
+    },
+    {
+      "number": 1,
+      "text": "The book of the generation of Jesus Christ, the son of David, the son of Abraham.",
+      "chapter": {
+        "id": 4
+      },
+      "translation": {
+        "id": 1
+      }
+    },
+    {
+      "number": 1,
+      "text": "The beginning of the gospel of Jesus Christ, the Son of God;",
+      "chapter": {
+        "id": 5
+      },
+      "translation": {
+        "id": 1
+      }
+    }
+  ]
+}

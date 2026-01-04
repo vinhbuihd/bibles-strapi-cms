@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "verses",
+  "info": {
+    "singularName": "verse",
+    "pluralName": "verses",
+    "displayName": "Verse",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "number": {
+      "type": "integer",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "chapter": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::chapter.chapter",
+      "inversedBy": "verses"
+    },
+    "translation": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::translation.translation",
+      "inversedBy": "verses"
+    }
+  }
+}
