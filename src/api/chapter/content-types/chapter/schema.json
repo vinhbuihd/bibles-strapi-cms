@@ -4,28 +4,32 @@
   "info": {
     "singularName": "chapter",
     "pluralName": "chapters",
-    "displayName": "Chapter",
-    "description": ""
+    "displayName": "Chapter"
   },
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
   "attributes": {
     "number": {
       "type": "integer",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "number",
       "required": true
     },
     "book": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::book.book",
-      "inversedBy": "chapters"
+      "inversedBy": "chapters",
+      "required": true
     },
-    "verses": {
+    "sections": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::verse.verse",
+      "target": "api::section.section",
       "mappedBy": "chapter"
     }
   }

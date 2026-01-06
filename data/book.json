@@ -1,0 +1,205 @@
+[
+  {
+    "title": "Sáng Thế Ký",
+    "slug": "sang-the-ky",
+    "testament": "old",
+    "order": 1,
+    "chapters": 50
+  },
+  {
+    "title": "Xuất Hành",
+    "slug": "xuat-hanh",
+    "testament": "old",
+    "order": 2,
+    "chapters": 40
+  },
+  {
+    "title": "Lê-vi",
+    "slug": "le-vi",
+    "testament": "old",
+    "order": 3,
+    "chapters": 27
+  },
+  {
+    "title": "Dân Số",
+    "slug": "dan-so",
+    "testament": "old",
+    "order": 4,
+    "chapters": 36
+  },
+  {
+    "title": "Đệ Nhị Luật",
+    "slug": "de-nhi-luat",
+    "testament": "old",
+    "order": 5,
+    "chapters": 34
+  },
+  {
+    "title": "Giô-suê",
+    "slug": "gio-sue",
+    "testament": "old",
+    "order": 6,
+    "chapters": 24
+  },
+  {
+    "title": "Thủ Lãnh",
+    "slug": "thu-lanh",
+    "testament": "old",
+    "order": 7,
+    "chapters": 21
+  },
+  {
+    "title": "Rút",
+    "slug": "rut",
+    "testament": "old",
+    "order": 8,
+    "chapters": 4
+  },
+  {
+    "title": "1 Sa-mu-en",
+    "slug": "1-sa-mu-en",
+    "testament": "old",
+    "order": 9,
+    "chapters": 31
+  },
+  {
+    "title": "2 Sa-mu-en",
+    "slug": "2-sa-mu-en",
+    "testament": "old",
+    "order": 10,
+    "chapters": 24
+  },
+  {
+    "title": "Thánh Vịnh",
+    "slug": "thanh-vinh",
+    "testament": "old",
+    "order": 19,
+    "chapters": 150
+  },
+  {
+    "title": "Châm Ngôn",
+    "slug": "cham-ngon",
+    "testament": "old",
+    "order": 20,
+    "chapters": 31
+  },
+  {
+    "title": "Giảng Viên",
+    "slug": "giang-vien",
+    "testament": "old",
+    "order": 21,
+    "chapters": 12
+  },
+  {
+    "title": "Diễm Ca",
+    "slug": "diem-ca",
+    "testament": "old",
+    "order": 22,
+    "chapters": 8
+  },
+  {
+    "title": "I-sai-a",
+    "slug": "i-sai-a",
+    "testament": "old",
+    "order": 23,
+    "chapters": 66
+  },
+  {
+    "title": "Giê-rê-mi-a",
+    "slug": "gie-re-mi-a",
+    "testament": "old",
+    "order": 24,
+    "chapters": 52
+  },
+  {
+    "title": "Tin Mừng Mát-thêu",
+    "slug": "mat-theu",
+    "testament": "new",
+    "order": 1,
+    "chapters": 28
+  },
+  {
+    "title": "Tin Mừng Mác-cô",
+    "slug": "mac-co",
+    "testament": "new",
+    "order": 2,
+    "chapters": 16
+  },
+  {
+    "title": "Tin Mừng Lu-ca",
+    "slug": "lu-ca",
+    "testament": "new",
+    "order": 3,
+    "chapters": 24
+  },
+  {
+    "title": "Tin Mừng Gio-an",
+    "slug": "gio-an",
+    "testament": "new",
+    "order": 4,
+    "chapters": 21
+  },
+  {
+    "title": "Công Vụ Tông Đồ",
+    "slug": "cong-vu-tong-do",
+    "testament": "new",
+    "order": 5,
+    "chapters": 28
+  },
+  {
+    "title": "Thư Rô-ma",
+    "slug": "thu-ro-ma",
+    "testament": "new",
+    "order": 6,
+    "chapters": 16
+  },
+  {
+    "title": "1 Cô-rin-tô",
+    "slug": "1-co-rin-to",
+    "testament": "new",
+    "order": 7,
+    "chapters": 16
+  },
+  {
+    "title": "2 Cô-rin-tô",
+    "slug": "2-co-rin-to",
+    "testament": "new",
+    "order": 8,
+    "chapters": 13
+  },
+  {
+    "title": "Ga-lát",
+    "slug": "ga-lat",
+    "testament": "new",
+    "order": 9,
+    "chapters": 6
+  },
+  {
+    "title": "Ê-phê-sô",
+    "slug": "e-phe-so",
+    "testament": "new",
+    "order": 10,
+    "chapters": 6
+  },
+  {
+    "title": "Phi-líp-phê",
+    "slug": "phi-lip-phe",
+    "testament": "new",
+    "order": 11,
+    "chapters": 4
+  },
+  {
+    "title": "Cô-lô-sê",
+    "slug": "co-lo-se",
+    "testament": "new",
+    "order": 12,
+    "chapters": 4
+  },
+  {
+    "title": "Khải Huyền",
+    "slug": "khai-huyen",
+    "testament": "new",
+    "order": 27,
+    "chapters": 22
+  }
+]

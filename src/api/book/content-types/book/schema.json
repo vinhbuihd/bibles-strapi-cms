@@ -5,25 +5,24 @@
     "singularName": "book",
     "pluralName": "books",
     "displayName": "Book",
-    "description": ""
+    "description": "Sách Kinh Thánh (Tân Ước, Cựu Ước)"
   },
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
   "attributes": {
-    "name": {
+    "title": {
       "type": "string",
       "required": true
     },
     "slug": {
       "type": "uid",
-      "targetField": "name",
+      "targetField": "title",
       "required": true
     },
     "order": {
       "type": "integer",
-      "required": true
+      "default": 0
     },
     "testament": {
       "type": "relation",

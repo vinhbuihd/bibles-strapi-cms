@@ -4,33 +4,31 @@
   "info": {
     "singularName": "verse",
     "pluralName": "verses",
-    "displayName": "Verse",
-    "description": ""
+    "displayName": "Verse"
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
-  "pluginOptions": {},
   "attributes": {
     "number": {
       "type": "integer",
       "required": true
     },
-    "text": {
+    "content": {
       "type": "text",
       "required": true
+    },
+    "section": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::section.section",
+      "inversedBy": "verses"
     },
     "chapter": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::chapter.chapter",
-      "inversedBy": "verses"
-    },
-    "translation": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::translation.translation",
-      "inversedBy": "verses"
+      "required": true
     }
   }
 }

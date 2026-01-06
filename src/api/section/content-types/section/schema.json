@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sections",
+  "info": {
+    "singularName": "section",
+    "pluralName": "sections",
+    "displayName": "Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "chapter": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::chapter.chapter",
+      "inversedBy": "sections",
+      "required": true
+    },
+    "verses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::verse.verse",
+      "mappedBy": "section"
+    }
+  }
+}
