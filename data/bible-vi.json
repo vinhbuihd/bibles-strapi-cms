@@ -1,0 +1,337 @@
+{
+  "global": {
+    "siteName": "Kinh Thánh Online",
+    "defaultSeo": {
+      "metaTitle": "Kinh Thánh Online - Đọc Kinh Thánh Tiếng Việt",
+      "metaDescription": "Đọc Kinh Thánh Công Giáo và Tin Lành bằng tiếng Việt. Tra cứu theo sách, chương, câu.",
+      "shareImage": null
+    },
+    "siteDescription": "Website đọc Kinh Thánh tiếng Việt miễn phí",
+    "favicon": null
+  },
+  "testaments": [
+    {
+      "name": "Cựu Ước",
+      "slug": "cuu-uoc"
+    },
+    {
+      "name": "Tân Ước",
+      "slug": "tan-uoc"
+    }
+  ],
+  "books": [
+    {
+      "title": "Sáng Thế Ký",
+      "slug": "sang-the-ky",
+      "testament": "old",
+      "order": 1
+    },
+    {
+      "title": "Xuất Hành",
+      "slug": "xuat-hanh",
+      "testament": "old",
+      "order": 2
+    },
+    {
+      "title": "Lê-vi",
+      "slug": "le-vi",
+      "testament": "old",
+      "order": 3
+    },
+    {
+      "title": "Dân Số",
+      "slug": "dan-so",
+      "testament": "old",
+      "order": 4
+    },
+    {
+      "title": "Đệ Nhị Luật",
+      "slug": "de-nhi-luat",
+      "testament": "old",
+      "order": 5
+    },
+    {
+      "title": "Thánh Vịnh",
+      "slug": "thanh-vinh",
+      "testament": "old",
+      "order": 19
+    },
+    {
+      "title": "Tin Mừng Mát-thêu",
+      "slug": "mat-theu",
+      "testament": "new",
+      "order": 1
+    },
+    {
+      "title": "Tin Mừng Mác-cô",
+      "slug": "mac-co",
+      "testament": "new",
+      "order": 2
+    },
+    {
+      "title": "Tin Mừng Lu-ca",
+      "slug": "lu-ca",
+      "testament": "new",
+      "order": 3
+    },
+    {
+      "title": "Tin Mừng Gio-an",
+      "slug": "gio-an",
+      "testament": "new",
+      "order": 4
+    }
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "slug": "sang-the-ky-1",
+      "bookSlug": "sang-the-ky"
+    },
+    {
+      "number": 2,
+      "slug": "sang-the-ky-2",
+      "bookSlug": "sang-the-ky"
+    },
+    {
+      "number": 3,
+      "slug": "sang-the-ky-3",
+      "bookSlug": "sang-the-ky"
+    },
+    {
+      "number": 1,
+      "slug": "mat-theu-1",
+      "bookSlug": "mat-theu"
+    },
+    {
+      "number": 1,
+      "slug": "gio-an-1",
+      "bookSlug": "gio-an"
+    },
+    {
+      "number": 1,
+      "slug": "thanh-vinh-1",
+      "bookSlug": "thanh-vinh"
+    },
+    {
+      "number": 23,
+      "slug": "thanh-vinh-23",
+      "bookSlug": "thanh-vinh"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Thiên Chúa tạo dựng trời đất",
+      "order": 1,
+      "chapterSlug": "sang-the-ky-1"
+    },
+    {
+      "title": "Gia phả Đức Giêsu Kitô",
+      "order": 1,
+      "chapterSlug": "mat-theu-1"
+    },
+    {
+      "title": "Ngôi Lời",
+      "order": 1,
+      "chapterSlug": "gio-an-1"
+    }
+  ],
+  "verses": [
+    {
+      "number": 1,
+      "content": "Lúc khởi đầu, Thiên Chúa sáng tạo trời đất.",
+      "chapterSlug": "sang-the-ky-1"
+    },
+    {
+      "number": 2,
+      "content": "Đất còn trống rỗng, chưa có hình dạng, bóng tối bao trùm vực thẳm, và thần khí Thiên Chúa bay lượn trên mặt nước.",
+      "chapterSlug": "sang-the-ky-1"
+    },
+    {
+      "number": 3,
+      "content": "Thiên Chúa phán: \"Phải có ánh sáng.\" Liền có ánh sáng.",
+      "chapterSlug": "sang-the-ky-1"
+    },
+    {
+      "number": 4,
+      "content": "Thiên Chúa thấy rằng ánh sáng tốt đẹp. Thiên Chúa phân rẽ ánh sáng và bóng tối.",
+      "chapterSlug": "sang-the-ky-1"
+    },
+    {
+      "number": 5,
+      "content": "Thiên Chúa gọi ánh sáng là \"ngày\", bóng tối là \"đêm\". Qua một buổi chiều và một buổi sáng: đó là ngày thứ nhất.",
+      "chapterSlug": "sang-the-ky-1"
+    },
+    {
+      "number": 6,
+      "content": "Thiên Chúa phán: \"Phải có một cái vòm ở giữa khối nước, để phân rẽ nước với nước.\"",
+      "chapterSlug": "sang-the-ky-1"
+    },
+    {
+      "number": 7,
+      "content": "Thiên Chúa làm ra cái vòm đó và phân rẽ nước phía dưới vòm với nước phía trên. Liền có như vậy.",
+      "chapterSlug": "sang-the-ky-1"
+    },
+    {
+      "number": 8,
+      "content": "Thiên Chúa gọi vòm đó là \"trời\". Qua một buổi chiều và một buổi sáng: đó là ngày thứ hai.",
+      "chapterSlug": "sang-the-ky-1"
+    },
+    {
+      "number": 9,
+      "content": "Thiên Chúa phán: \"Nước phía dưới trời phải tụ lại một nơi, để chỗ cạn lộ ra.\" Liền có như vậy.",
+      "chapterSlug": "sang-the-ky-1"
+    },
+    {
+      "number": 10,
+      "content": "Thiên Chúa gọi chỗ cạn là \"đất\", khối nước tụ lại là \"biển\". Thiên Chúa thấy thế là tốt đẹp.",
+      "chapterSlug": "sang-the-ky-1"
+    },
+    {
+      "number": 26,
+      "content": "Thiên Chúa phán: \"Chúng ta hãy làm ra con người theo hình ảnh chúng ta, giống như chúng ta, để con người làm bá chủ cá biển, chim trời, gia súc, dã thú, tất cả mặt đất và mọi giống vật bò dưới đất.\"",
+      "chapterSlug": "sang-the-ky-1"
+    },
+    {
+      "number": 27,
+      "content": "Thiên Chúa sáng tạo con người theo hình ảnh mình, Thiên Chúa sáng tạo con người theo hình ảnh Thiên Chúa, Thiên Chúa sáng tạo con người có nam có nữ.",
+      "chapterSlug": "sang-the-ky-1"
+    },
+    {
+      "number": 28,
+      "content": "Thiên Chúa ban phúc lành cho họ, và Thiên Chúa phán với họ: \"Hãy sinh sôi nảy nở thật nhiều, cho đầy mặt đất, và thống trị mặt đất.\"",
+      "chapterSlug": "sang-the-ky-1"
+    },
+    {
+      "number": 31,
+      "content": "Thiên Chúa thấy mọi sự Người đã làm ra quả là rất tốt đẹp! Qua một buổi chiều và một buổi sáng: đó là ngày thứ sáu.",
+      "chapterSlug": "sang-the-ky-1"
+    },
+    {
+      "number": 1,
+      "content": "Đây là gia phả Đức Giêsu Kitô, con cháu vua Đa-vít, con cháu tổ phụ Áp-ra-ham:",
+      "chapterSlug": "mat-theu-1"
+    },
+    {
+      "number": 2,
+      "content": "Ông Áp-ra-ham sinh I-xa-ác; I-xa-ác sinh Gia-cóp; Gia-cóp sinh Giu-đa và các anh em ông này.",
+      "chapterSlug": "mat-theu-1"
+    },
+    {
+      "number": 16,
+      "content": "Gia-cóp sinh Giu-se, chồng của bà Ma-ri-a, bà là mẹ Đức Giêsu cũng gọi là Đấng Ki-tô.",
+      "chapterSlug": "mat-theu-1"
+    },
+    {
+      "number": 18,
+      "content": "Sau đây là gốc tích Đức Giêsu Kitô: bà Ma-ri-a, mẹ Người, đã thành hôn với ông Giu-se. Nhưng trước khi hai ông bà về chung sống, bà đã có thai do quyền năng Chúa Thánh Thần.",
+      "chapterSlug": "mat-theu-1"
+    },
+    {
+      "number": 21,
+      "content": "Bà sẽ sinh con trai và ông phải đặt tên cho con trẻ là Giêsu, vì chính Người sẽ cứu dân Người khỏi tội lỗi của họ.",
+      "chapterSlug": "mat-theu-1"
+    },
+    {
+      "number": 23,
+      "content": "\"Này đây, Trinh Nữ sẽ thụ thai và sinh hạ một con trai, người ta sẽ gọi tên con trẻ là Em-ma-nu-en, nghĩa là 'Thiên Chúa ở cùng chúng ta'.\"",
+      "chapterSlug": "mat-theu-1"
+    },
+    {
+      "number": 1,
+      "content": "Lúc khởi đầu đã có Ngôi Lời. Ngôi Lời vẫn hướng về Thiên Chúa, và Ngôi Lời là Thiên Chúa.",
+      "chapterSlug": "gio-an-1"
+    },
+    {
+      "number": 2,
+      "content": "Lúc khởi đầu, Người vẫn hướng về Thiên Chúa.",
+      "chapterSlug": "gio-an-1"
+    },
+    {
+      "number": 3,
+      "content": "Nhờ Ngôi Lời, vạn vật được tạo thành, và không có Người, thì chẳng có gì được tạo thành.",
+      "chapterSlug": "gio-an-1"
+    },
+    {
+      "number": 4,
+      "content": "Điều đã được tạo thành ở nơi Người là sự sống, và sự sống là ánh sáng cho nhân loại.",
+      "chapterSlug": "gio-an-1"
+    },
+    {
+      "number": 5,
+      "content": "Ánh sáng chiếu soi trong bóng tối, và bóng tối đã không diệt được ánh sáng.",
+      "chapterSlug": "gio-an-1"
+    },
+    {
+      "number": 14,
+      "content": "Ngôi Lời đã trở nên người phàm và cư ngụ giữa chúng ta. Chúng tôi đã được nhìn thấy vinh quang của Người, vinh quang mà Chúa Cha ban cho Người, là Con Một đầy tràn ân sủng và sự thật.",
+      "chapterSlug": "gio-an-1"
+    },
+    {
+      "number": 1,
+      "content": "Phúc thay người chẳng nghe theo lời bọn ác nhân, chẳng bước vào đường quân tội lỗi, không nhập bọn với phường ngạo mạn kiêu căng,",
+      "chapterSlug": "thanh-vinh-1"
+    },
+    {
+      "number": 2,
+      "content": "nhưng vui thú với lề luật Chúa, nhẩm đi nhẩm lại suốt đêm ngày.",
+      "chapterSlug": "thanh-vinh-1"
+    },
+    {
+      "number": 3,
+      "content": "Người ấy tựa cây trồng bên dòng nước, cứ đúng mùa là hoa quả trổ sinh, cành lá chẳng khi nào tàn tạ. Người ấy làm chi cũng sẽ thành đạt.",
+      "chapterSlug": "thanh-vinh-1"
+    },
+    {
+      "number": 1,
+      "content": "Chúa là mục tử chăn dắt tôi, tôi chẳng thiếu thốn gì.",
+      "chapterSlug": "thanh-vinh-23"
+    },
+    {
+      "number": 2,
+      "content": "Trong đồng cỏ xanh tươi, Người cho tôi nằm nghỉ. Người đưa tôi tới dòng nước trong lành",
+      "chapterSlug": "thanh-vinh-23"
+    },
+    {
+      "number": 3,
+      "content": "và bổ sức cho tôi. Người dẫn tôi trên đường ngay nẻo chính vì danh dự của Người.",
+      "chapterSlug": "thanh-vinh-23"
+    },
+    {
+      "number": 4,
+      "content": "Lạy Chúa, dầu qua lũng âm u con sợ gì nguy khốn, vì có Chúa ở cùng. Côn trượng Ngài bảo vệ, con vững dạ an tâm.",
+      "chapterSlug": "thanh-vinh-23"
+    },
+    {
+      "number": 5,
+      "content": "Chúa dọn sẵn cho con bữa tiệc ngay trước mặt quân thù. Đầu con, Chúa xức đượm dầu thơm, ly rượu con đầy tràn chan chứa.",
+      "chapterSlug": "thanh-vinh-23"
+    },
+    {
+      "number": 6,
+      "content": "Lòng nhân hậu và tình thương Chúa ấp ủ tôi suốt cả cuộc đời, và tôi được ở đền Người những ngày tháng, những năm dài triền miên.",
+      "chapterSlug": "thanh-vinh-23"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Ngũ Thư",
+      "slug": "ngu-thu",
+      "description": "5 sách đầu tiên của Cựu Ước: Sáng Thế, Xuất Hành, Lê-vi, Dân Số, Đệ Nhị Luật"
+    },
+    {
+      "name": "Tin Mừng",
+      "slug": "tin-mung",
+      "description": "4 sách Tin Mừng: Mát-thêu, Mác-cô, Lu-ca, Gio-an"
+    },
+    {
+      "name": "Thánh Vịnh",
+      "slug": "thanh-vinh",
+      "description": "150 bài thánh ca của vua Đa-vít và các tác giả khác"
+    },
+    {
+      "name": "Thư Phaolô",
+      "slug": "thu-phaolo",
+      "description": "Các thư của Thánh Phaolô gửi các giáo đoàn"
+    }
+  ]
+}

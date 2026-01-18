@@ -20,10 +20,15 @@
       "targetField": "title",
       "required": true
     },
+    "order": {
+      "type": "integer",
+      "default": 0
+    },
     "testament": {
-      "type": "enumeration",
-      "enum": ["old", "new"],
-      "required": true
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::testament.testament",
+      "inversedBy": "books"
     },
     "chapters": {
       "type": "relation",
