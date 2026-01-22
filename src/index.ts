@@ -19,4 +19,4 @@ export default {
   bootstrap(/* { strapi }: { strapi: Core.Strapi } */) {},
 };
 
-// 123
+// 1

@@ -75,4 +75,14 @@ declare module "@strapi/strapi" {
   }
 }
 
+// CM1
+
 // CM3
+
+// CM4
+
+// CM5
+
+// CM6
+
+// CM7
