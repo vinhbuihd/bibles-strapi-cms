@@ -89,4 +89,6 @@ declare module "@strapi/strapi" {
 
 // CM7
 
+// CM8
+
 // CM9
