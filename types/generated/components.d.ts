@@ -77,6 +77,8 @@ declare module "@strapi/strapi" {
 
 // CM1
 
+// CM2
+
 // CM3
 
 // CM4
@@ -86,3 +88,5 @@ declare module "@strapi/strapi" {
 // CM6
 
 // CM7
+
+// CM9
